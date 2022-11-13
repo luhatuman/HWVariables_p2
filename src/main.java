@@ -33,5 +33,19 @@ public class main {
         short totalPaper = 480;
         System.out.println("На каждого ученика рассчитано " + totalPaper / (studentLPClass + studentASClass + studentEAClass) + " листов бумаги");
         System.out.println();
-                    }
+
+        //Task 4
+        System.out.println("Task 4");
+        byte efficiencyMachine = 16/2; //Производительнсть машины в минуту
+        System.out.println("Производительность машины - " + efficiencyMachine + " бутылок в минуту");
+        byte timeEfficiency1 = 20; //20 минут
+        short timeEfficiency2 = 24 * 60; //Минут в сутках
+        int timeEfficiency3 = timeEfficiency2 * 3; //Минут в 3 сутках
+        int timeEfficiency4 = timeEfficiency2 * 30; //Минут в месяце при 30 днях
+        System.out.println("За 20 минут работы машина произвела бутылок " + efficiencyMachine * timeEfficiency1 + " штук" +
+                "\n" + "За сутки работы машина произвела бутылок " + efficiencyMachine * timeEfficiency2 + " штук" +
+                "\n" + "За 3 дня работы машина произвела бутылок " + efficiencyMachine * timeEfficiency3 + " штук" +
+                "\n" + "За 1 месяц работы машина произвела бутылок " + efficiencyMachine * timeEfficiency4 + " штук");
+        System.out.println();
+    }
 }
