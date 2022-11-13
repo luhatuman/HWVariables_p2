@@ -56,5 +56,15 @@ public class main {
         int totalClass = totalCan / (canWhitePaintFor1Class + canBrownPaintFor1Class);
         System.out.println("В школе, где " + totalClass + " классов, нужно " + totalClass * 2 + " банок белой краски и " + totalClass * 4 + " банок коричневой краски");
         System.out.println();
+
+        //Task 6
+        System.out.println("Task 6");
+        short weightBanans = 5 * 80;
+        short weightMilk = 2 * 105;
+        short weightIcecream = 2 * 100;
+        short weightEggs = 4 * 70;
+        float totalWeight = weightBanans + weightMilk + weightIcecream + weightEggs;
+        System.out.println("Вес спорт-завтрака " + totalWeight / 1000 + " кг.");
+        System.out.println();
     }
 }
