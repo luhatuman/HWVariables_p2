@@ -47,5 +47,14 @@ public class main {
                 "\n" + "За 3 дня работы машина произвела бутылок " + efficiencyMachine * timeEfficiency3 + " штук" +
                 "\n" + "За 1 месяц работы машина произвела бутылок " + efficiencyMachine * timeEfficiency4 + " штук");
         System.out.println();
+
+        //Task 5
+        System.out.println("Task 5");
+        byte totalCan = 120;
+        byte canWhitePaintFor1Class = 2;
+        byte canBrownPaintFor1Class = 4;
+        int totalClass = totalCan / (canWhitePaintFor1Class + canBrownPaintFor1Class);
+        System.out.println("В школе, где " + totalClass + " классов, нужно " + totalClass * 2 + " банок белой краски и " + totalClass * 4 + " банок коричневой краски");
+        System.out.println();
     }
 }
