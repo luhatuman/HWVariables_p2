@@ -76,5 +76,23 @@ public class main {
                 "\n" + "Потребуется " + totalWeightLoss / speedOfWeightLoss2 + " дней чтобы сбросить 7 кг. по 500 гр. в сутки" +
                 "\n" + "В среднем потребуется " + (totalWeightLoss / speedOfWeightLoss1 + totalWeightLoss / speedOfWeightLoss2) / 2 + " день для похудения");
         System.out.println();
+
+        //Task 8
+        System.out.println("Task 8");
+        double salaryMasha = 67760;
+        double salaryDenis = 83690;
+        double salaryKristina = 76230;
+        double mashaYear = salaryMasha * 12;
+        double denisYear = salaryDenis * 12;
+        double kristinaYear= salaryKristina * 12;
+        salaryMasha += salaryMasha * 0.1;
+        salaryDenis += salaryDenis * 0.1;
+        salaryKristina += salaryKristina * 0.1;
+        mashaYear = salaryMasha * 12 - mashaYear;
+        denisYear = salaryDenis * 12 - denisYear;
+        kristinaYear = salaryKristina * 12 - kristinaYear;
+        System.out.println("Маша теперь получает " + salaryMasha + " рублей в месяц. Годовой доход вырос на " + mashaYear + " рублей.");
+        System.out.println("Денис теперь получает " + salaryDenis + " рублей в месяц. Годовой доход вырос на " + denisYear + " рублей.");
+        System.out.println("Кристина теперь получает " + salaryKristina + " рублей в месяц. Годовой доход вырос на " + kristinaYear + " рублей.");
     }
 }
