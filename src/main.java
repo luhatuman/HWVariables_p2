@@ -66,5 +66,15 @@ public class main {
         float totalWeight = weightBanans + weightMilk + weightIcecream + weightEggs;
         System.out.println("Вес спорт-завтрака " + totalWeight / 1000 + " кг.");
         System.out.println();
+
+        //Task 7
+        System.out.println("Task 7");
+        short totalWeightLoss = 7 * 1000;
+        short speedOfWeightLoss1 = 250;
+        short speedOfWeightLoss2 = 500;
+        System.out.println("Потребуется " + totalWeightLoss / speedOfWeightLoss1 + " дней чтобы сбросить 7 кг. по 250 гр. в сутки" +
+                "\n" + "Потребуется " + totalWeightLoss / speedOfWeightLoss2 + " дней чтобы сбросить 7 кг. по 500 гр. в сутки" +
+                "\n" + "В среднем потребуется " + (totalWeightLoss / speedOfWeightLoss1 + totalWeightLoss / speedOfWeightLoss2) / 2 + " день для похудения");
+        System.out.println();
     }
 }
